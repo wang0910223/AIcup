@@ -17,14 +17,31 @@
 >  - **Due to our dataset's low frame rate (fps: 1), we have disabled the Kalman filter in BoT-SORT. Low frame rates can cause the Kalman filter to deviate, hence we only used appearance features for tracking in this baseline.**
 
 
-## ToDo
-- [x] Complete evaluation guide
-- [x] Visualize results on AICUP train_set
-- [ ] Release test set
+## Environment
+作業系統：Linux
 
-### Visualization results on AICUP train_set
+硬體規格：
+- GPU：NVIDIA GeForce RTX 3090
+- 
+程式語言：Python
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Ofc7FS5D8uY/0.jpg)](https://youtu.be/Ofc7FS5D8uY)
+程式語言之相關套件（函式庫）版本：
+- Pytorch：1.13.1+cu117
+- Pillow：9.5.0
+- Torchvision：0.14.1+cu117
+- Cv2：4.8.0
+- Numpy：1.18.5
+
+Pytorche build with：
+- GCC 9.3
+- C++ Version: 201402
+- Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+- Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+- OpenMP 201511 (a.k.a. OpenMP 4.5)
+- LAPACK is enabled (usually provided by MKL)
+- NNPACK is enabled
+- CPU capability usage: AVX2
+- CUDA Runtime 11.7
 
 
 ## Installation
