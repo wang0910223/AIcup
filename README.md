@@ -22,7 +22,7 @@
 
 硬體規格：
 - GPU：NVIDIA GeForce RTX 3090
-- 
+  
 程式語言：Python
 
 程式語言之相關套件（函式庫）版本：
